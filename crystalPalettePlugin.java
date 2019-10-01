@@ -17,6 +17,8 @@ public class crystalPalettePlugin
     try
     {
       LCSPalette paletteObj = (LCSPalette)obj;
+	  
+	  String testString = "";
 
       paletteName = (String)paletteObj.getValue("name");
 
